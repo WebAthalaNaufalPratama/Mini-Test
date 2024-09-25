@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-body">
 
-            <x-logo />
+            <h1 class="text-center">Mini-Test-Athala</h1>
 
             <form id="formAuthentication" class="mb-3" action="{{ route('register') }}" method="POST">
                 @csrf

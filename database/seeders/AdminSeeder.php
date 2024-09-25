@@ -19,10 +19,10 @@ class AdminSeeder extends Seeder
         DB::beginTransaction();
         try {
             $admin = User::create([
-                'username'  => 'administrator',
-                'email'     => 'administrator@gmail.com',
-                'name'      => 'Administrator',
-                'password'  => Hash::make('administrator'),
+                'username'  => 'athala',
+                'email'     => 'anaufal779@gmail.com',
+                'name'      => 'Athala Naufal Pratama',
+                'password'  => Hash::make('123'),
                 'email_verified_at' => now(),
             ]);
 

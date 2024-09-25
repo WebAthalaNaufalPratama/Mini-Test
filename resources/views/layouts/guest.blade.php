@@ -23,7 +23,7 @@
     <div class="flex flex-col items-center pt-6 min-h-screen bg-gray-100 sm:justify-center sm:pt-0">
         <div>
             <a href="/">
-                <x-application-logo class="w-20 h-20 text-gray-500 fill-current" />
+                <h1 class="text-center">Mini-Test-Athala</h1>
             </a>
         </div>
 

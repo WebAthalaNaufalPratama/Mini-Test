@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-body">
 
-            <x-logo />
+            <h1 class="text-center">Mini-Test-Athala</h1>
 
             <h4 class="mb-2">Forgot Password? 🔒</h4>
             <p class="mb-4">

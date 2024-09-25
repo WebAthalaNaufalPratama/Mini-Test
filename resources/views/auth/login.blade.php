@@ -3,7 +3,7 @@
     <div class="card">
         <div class="card-body">
 
-            <x-logo />
+            <h1 class="text-center">Mini-Test-Athala</h1>
 
             <p class="mb-4">Please sign-in to your account and start the adventure</p>
 

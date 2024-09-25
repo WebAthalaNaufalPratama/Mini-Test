@@ -10,6 +10,8 @@
     <title>Apps &mdash; {{ config('app.name') }}</title>
 
     <meta name="description" content="" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('/') }}assets/img/favicon/favicon.ico" />
@@ -75,6 +77,15 @@
     <script src="{{ asset('/') }}assets/vendor/js/bootstrap.js"></script>
     <script src="{{ asset('/') }}assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="{{ asset('/') }}assets/vendor/js/menu.js"></script>
+    <!-- jQuery (required for DataTables) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" rel="stylesheet">
+
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+
 
     <!-- Vendors JS -->
     <script src="{{ asset('/') }}assets/vendor/libs/apex-charts/apexcharts.js"></script>
@@ -82,6 +93,7 @@
 
     <!-- Main JS -->
     <script src="{{ asset('/') }}assets/js/main.js"></script>
+    
 
     <!-- Page JS -->
     @stack('script')
